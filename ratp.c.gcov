@@ -1,0 +1,15 @@
+        -:    0:Source:ratp.c
+        -:    0:Graph:ratp.gcno
+        -:    0:Data:ratp.gcda
+        -:    0:Runs:2
+        -:    1:static const float Price = 1.5;
+function computePrice called 4 returned 100% blocks executed 75%
+        4:    2:float computePrice(int age)
+        -:    3:{
+        4:    4:    if (age>12)
+branch  0 taken 0 (fallthrough)
+branch  1 taken 4
+    #####:    5:        return Price;
+        -:    6:    else
+        4:    7:        return Price/2;
+        -:    8:}
